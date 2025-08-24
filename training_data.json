@@ -1,0 +1,42 @@
+{
+  "description": "Training data for TinyLlama Chinese five-character poetry fine-tuning",
+  "format": "五言诗 (5 characters per line, typically 4 lines per poem)",
+  "examples": [
+    {
+      "id": "spring_001",
+      "topic": "Spring (春天)",
+      "input": "Write a Chinese five-character poem about spring (春天)",
+      "output": "春风吹柳绿，\n花开满园香。\n鸟语枝头闹，\n诗情画意长。"
+    },
+    {
+      "id": "flowers_001",
+      "topic": "Flowers (花)",
+      "input": "Write a Chinese five-character poem about flowers (花)",
+      "output": "花开春意浓，\n蝶舞香满庭。\n红白相映美，\n诗人赞不停。"
+    },
+    {
+      "id": "mountains_001",
+      "topic": "Mountains (山)",
+      "input": "Write a Chinese five-character poem about mountains (山)",
+      "output": "青山如黛色，\n云雾绕峰头。\n溪水潺潺流，\n美景入心头。"
+    },
+    {
+      "id": "moon_001",
+      "topic": "Moon (月亮)",
+      "input": "Write a Chinese five-character poem about the moon (月亮)",
+      "output": "明月挂天空，\n银光洒大地。\n思君不见君，\n只见月如水。"
+    },
+    {
+      "id": "autumn_001",
+      "topic": "Autumn (秋天)",
+      "input": "Write a Chinese five-character poem about autumn (秋天)",
+      "output": "秋风萧瑟起，\n叶落满山坡。\n菊花黄似金，\n诗意正蹉跎。"
+    }
+  ],
+  "notes": {
+    "poem_structure": "Each poem follows traditional 五言诗 format with 5 characters per line and 4 lines per poem",
+    "language": "Traditional Chinese characters are used",
+    "themes": "Natural elements and seasonal topics are emphasized",
+    "expansion": "To add more training data, simply add new objects to the 'examples' array following the same structure"
+  }
+}

@@ -1,0 +1,25 @@
+# Core dependencies for Chinese Poetry Generator Gradio App
+# Compatible with Hugging Face Spaces
+
+# Web interface
+gradio>=4.0.0
+
+# Model and tokenization
+transformers>=4.35.0
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# PEFT for LoRA adapter loading
+peft>=0.6.0
+
+# Acceleration and optimization
+accelerate>=0.24.0
+
+# Additional utilities
+numpy>=1.21.0
+requests>=2.25.0
+
+# Optional: For better performance (uncomment if needed)
+# optimum>=1.14.0
+# bitsandbytes>=0.41.0
