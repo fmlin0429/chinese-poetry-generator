@@ -89,17 +89,9 @@ jobs:
         api = HfApi(token=token)
         
         try:
-            # Create space if it doesn't exist
-            print('Creating/updating Space...')
-            create_repo(
-                repo_id=repo_id,
-                repo_type='space',
-                space_sdk='gradio',
-                private=False,
-                exist_ok=True,
-                token=token
-            )
-            print('✅ Space created/updated')
+            # Skip space creation - assume it exists
+            print('Using existing Space...')
+            print('✅ Space found')
             
             # Upload files
             files_to_upload = [
